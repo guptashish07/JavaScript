@@ -19,3 +19,20 @@ const bigNumber = 324578641252428542n
 // Reference (Non primitive)
 // Array, Objects, Functions
 
+const heros = ["shatiman", "naagraj", "doga"]
+
+let myObj = {
+    name: "Ashish",
+    age: 26
+
+}
+
+const myFunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof bigNumber);
+console.log(typeof outSideTemprature);
+console.log(typeof myFunction);
+console.log(typeof heros);
+console.log(typeof id);
