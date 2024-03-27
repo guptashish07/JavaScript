@@ -36,3 +36,28 @@ console.log(typeof outSideTemprature);
 console.log(typeof myFunction);
 console.log(typeof heros);
 console.log(typeof id);
+
+
+// ************************************************************************************
+
+// Stack (Primitive), Heap(Non-Primitive)
+
+let myYoutubeName = "ashishgupta"
+
+let anotherName = myYoutubeName
+
+anotherName = "ramram"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "ashish@google.com"
+
+console.log(userOne);
+console.log(userTwo);
