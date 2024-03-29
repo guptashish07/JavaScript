@@ -19,3 +19,7 @@ console.log(otherName.toPrecision(2));
 
 const hundreds = 1000000
 console.log(hundreds.toLocaleString('en-IN'));
+
+
+const hundreds2 = 10000000000
+console.log(hundreds2.toLocaleString('en-IN'));
